@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/booking.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <header class="main-header">
+
+            <div id="menu-bar">
+                <div id="humrger-btn">
+                    <div id="bar1 " class="bar bar1"></div>
+                    <div id="bar2 " class="bar bar2"></div>
+                    <div id="bar3 " class="bar bar3"></div>
+                </div>
+                <div class="main-nav">
+                    <ul class="nav" id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="packiges.html">Packages</a></li>
+                        <li><a href="Booking.html">Request Booking</a></li>
+                        <li><a href="home.html">Feedback</a></li>
+                        <li><a href="gallery.html">Photo Gallery</a></li>
+                        <li><a href="video.html">Video Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+
+            <div class="logo">
+                <img src="images/logo.png" alt="Tal3A" id="logo">
+            </div>
+            <div class="hero-slider-content">
+                <div class="hero-slider-title">
+
+                    <h1>YALLA TAL3A</h1>
+                </div>
+                <div class="hero-slider-intro">
+                    <p>Ready For Change Of Base?</p>
+                </div>
+                <div class="package-btn">
+                    <a href="#anchor">discover our tours</a>
+                </div>
+            </div>
+        </header>
+    </header>
+    <!-- <main>
+        <form>
+            <fieldset>
+                <legend>Booking Information</legend>
+            </fieldset>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" maxlength="10" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
+            <label for="country">Country</label>
+            <input type="text" id="country">
+            <label for="Message"></label>
+            <textarea rows="2" cols="3"></textarea>
+            <input type="submit" id="submit">
+        </form> -->
+    <section class="booking">
+        <h1>Start Booking Now</h1>
+ 
+        <div class="booking-box">
+            <div class="booking-form">
+          
+            </div>
+            <div class="booking-img">
+
+            </div>
+            <form id = "info">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+                <br>
+                <label for="phone">Phone Number</label>
+                <input type="text" pattern="\d*"id="phone" maxlength="10" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+                <br>
+                <label for="country">Country</label>
+                <input type="text" id="country" required>
+                <br>
+                <label for="noOfPeople">Num of people</label>
+                <input type="number" id="noOfPeople" min="1"  required > 
+                <br>
+                <label for="messageTA" id="message">Message</label>
+                <textarea rows="2" cols="3"  id="messageTA"></textarea>
+                <br>
+                <div class="form-btn">
+                    <input type="submit" id="submit" onClick ="location.href='../index.html'">
+
+                </div>
+    
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="footer-mainnavbar">
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="booking.html">Request Booking</a></li>
+                <li><a href="">Feedback</a></li>
+                <li><a href="home.html">Photo Gallery</a></li>
+                <li><a href="home.html">Video Gallery</a></li>
+
+            </ul>
+            <div class="contact">
+                <div class="border">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime pariatur itaque repudiandae
+                        quos, culpa, nobis ullam suscipit nisi et possimus porro vitae? Perspiciatis reprehenderit
+                        numquam laborum. Eaque, tempore eum!
+                    </p>
+
+                </div>
+                
+
+            </div>
+            <div id="social-media">
+                <ul>
+                <li><a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li><a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                </ul>
+            </div>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>
